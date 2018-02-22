@@ -28,7 +28,7 @@ export class PartiesFormComponent {
     if (this.addForm.valid) {
       Parties.insert(this.addForm.value);
 
-      this.addForm.resset();
+      this.addForm.reset();
     }
   }
 }
